@@ -1,2 +1,15 @@
-# financial-sentiment-nlp
-Financial news sentiment classifier (positive/negative/neutral) using TF-IDF and Logistic Regression on Financial PhraseBank | 77% accuracy | Macro F1: 0.73
+
+## Financial Sentiment Classifier
+
+Classifies financial news sentences as positive, negative, or neutral 
+using the Financial PhraseBank dataset.
+
+**Pipeline**: TF-IDF vectorization + Logistic Regression
+
+**Results**:
+- Accuracy: 0.77
+- Macro F1: 0.73
+
+**Dataset**: Financial PhraseBank (all-data.csv)
+
+**Libraries**: pandas, nltk, scikit-learn
